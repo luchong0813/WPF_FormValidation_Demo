@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "qlaLMaaFpRAGq6mnP3qMByQi6/MSLamThVE2zl+e7v9sSwQ8+WkqHffDMByeAVmzTS0e/B3pvLrrgOONH76UUw==",
+  "success": true,
+  "projectFilePath": "E:\\03-开源代码\\WPF_FormValidation_Demo\\src\\WPF_FormValidation_Demo\\WPF_FormValidation_Demo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucho\\.nuget\\packages\\dryioc.dll\\4.5.0\\dryioc.dll.4.5.0.nupkg.sha512",
+    "C:\\Users\\lucho\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\lucho\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512",
+    "C:\\Users\\lucho\\.nuget\\packages\\prism.dryioc\\8.0.0.1909\\prism.dryioc.8.0.0.1909.nupkg.sha512",
+    "C:\\Users\\lucho\\.nuget\\packages\\prism.wpf\\8.0.0.1909\\prism.wpf.8.0.0.1909.nupkg.sha512",
+    "C:\\Users\\lucho\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

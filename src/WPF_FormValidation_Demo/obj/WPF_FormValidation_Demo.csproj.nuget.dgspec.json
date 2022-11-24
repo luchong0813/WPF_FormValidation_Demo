@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\03-开源代码\\WPF_FormValidation_Demo\\src\\WPF_FormValidation_Demo\\WPF_FormValidation_Demo.csproj": {}
+  },
+  "projects": {
+    "E:\\03-开源代码\\WPF_FormValidation_Demo\\src\\WPF_FormValidation_Demo\\WPF_FormValidation_Demo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\03-开源代码\\WPF_FormValidation_Demo\\src\\WPF_FormValidation_Demo\\WPF_FormValidation_Demo.csproj",
+        "projectName": "WPF_FormValidation_Demo",
+        "projectPath": "E:\\03-开源代码\\WPF_FormValidation_Demo\\src\\WPF_FormValidation_Demo\\WPF_FormValidation_Demo.csproj",
+        "packagesPath": "C:\\Users\\lucho\\.nuget\\packages\\",
+        "outputPath": "E:\\03-开源代码\\WPF_FormValidation_Demo\\src\\WPF_FormValidation_Demo\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\01-IDE\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lucho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Prism.DryIoc": {
+              "target": "Package",
+              "version": "[8.0.0.1909, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

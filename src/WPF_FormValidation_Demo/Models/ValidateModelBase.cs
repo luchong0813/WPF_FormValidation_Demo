@@ -12,13 +12,16 @@ namespace WPF_FormValidation_Demo.Models
     {
         public Dictionary<string, string> dataErrors = new Dictionary<string, string>();  //错误信息集合
 
+        private bool _IsValidated;
+        /// <summary>
+        /// 是否验证通过
+        /// </summary>
         public bool IsValidated
         {
-            get
-            {
-                return !dataErrors.Any();
-            }
+            get { return _IsValidated; }
+            set { _IsValidated = value; RaisePropertyChanged(); }
         }
+
 
         public string this[string columnName]
         {
@@ -49,6 +52,7 @@ namespace WPF_FormValidation_Demo.Models
         private void RemoveError(Dictionary<string, string> dataErrors, string columnName)
         {
             dataErrors.Remove(columnName);
+            IsValidated = !dataErrors.Any();
         }
 
         /// <summary>
@@ -62,6 +66,7 @@ namespace WPF_FormValidation_Demo.Models
             if (!dataErrors.ContainsKey(columnName))
             {
                 dataErrors.Add(columnName, errorInfo);
+                IsValidated = !dataErrors.Any();
             }
         }
 

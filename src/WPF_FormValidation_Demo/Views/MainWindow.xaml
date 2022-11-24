@@ -54,10 +54,10 @@
                     Width="150"
                     Height="26"
                     Margin="76,5"
-                    IsEnabled="{Binding IsValidated}"
                     HorizontalAlignment="Left"
                     Command="{Binding SubmitCommand}"
-                    Content="新生注册" />
+                    Content="新生注册"
+                    IsEnabled="{Binding StudentInfo.IsValidated}" />
             </StackPanel>
         </GroupBox>
     </Grid>
